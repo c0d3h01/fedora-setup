@@ -68,7 +68,7 @@ git config --global user.email "harshalsawant2004h@gmail.com"
 # DNF Configuration for faster downloads
 sudo echo "fastestmirror=true" >> /etc/dnf/dnf.conf
 sudo echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
-sudo echo "defaultyes=true" >> /etc/dnf/dnf.conf
+#sudo echo "defaultyes=true" >> /etc/dnf/dnf.conf
 
 # Clean package cache
 sudo dnf clean all
